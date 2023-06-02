@@ -1,0 +1,27 @@
+* {
+  overflow-x: hidden;
+}
+
+/* BACKGROUND WRAPPER */
+#background_wrapper {
+  background: url("banner-background.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.main-button {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Bruno Ace SC', cursive;
+  font-weight: bolder;
+  padding: 1.2rem 1.7rem;
+  margin: 1.5rem 0;
+  border: 2px solid #FFFFFF;
+  border-radius: 3rem;
+  position: absolute;
+  left: 9%;
+  top: 60%;
+}
